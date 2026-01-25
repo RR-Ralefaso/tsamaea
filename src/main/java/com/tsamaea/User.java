@@ -1,20 +1,20 @@
-import java.time.LocalDate;
 import java.time.DateTimeException;
+import java.time.LocalDate;
 
 public class User {
     private final String name;
-    private final String passport;
+    //private final String passport;
     private final int id;
     private LocalDate dob; // Modern, immutable date object
 
     // Chains to the main constructor
     public User() {
-        this("", "", 0);
+        this("", 0);
     }
 
-    public User(String name, String passport, int id) {
+    public User(String name, int id) {
         this.name = (name != null) ? name : "";
-        this.passport = (passport != null) ? passport : "";
+        //this.passport = (passport != null) ? passport : "";
         this.id = id;
         this.dob = null;
     }
@@ -33,7 +33,7 @@ public class User {
 
     // Getters
     public String getName() { return name; }
-    public String getPassport() { return passport; }
+    //public String getPassport() { return passport; }
     public int getId() { return id; }
     public LocalDate getDob() { return dob; }
 
