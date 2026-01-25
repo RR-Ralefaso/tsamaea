@@ -5,6 +5,8 @@ public class main {
         Driver Driver = new Driver();
         System.out.println(Driver);
 
-        
+        User user = new User();
+        System.out.println(user);
+
     }
 }

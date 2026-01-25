@@ -39,7 +39,7 @@ public class User {
 
     @Override
     public String toString() {
-        return String.format("Name : $s\n", getName());
+        return String.format("Name : %s\n", getName());
     }
     
 }
