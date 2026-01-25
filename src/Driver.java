@@ -56,6 +56,7 @@ class Driver {
     public void setName(String name) { this.name = name; }
     public void setPassport(String passport) { this.passport = passport; }
     public void setRating(int rating) { this.rating = rating; }
+    //TODO : make a way for rating to work properly or remove rating specific
 
     // Getters
     public Car getCar() { return car; }
