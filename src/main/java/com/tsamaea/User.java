@@ -37,6 +37,9 @@ public class User {
     public int getId() { return id; }
     public LocalDate getDob() { return dob; }
 
-
+    @Override
+    public String toString() {
+        return String.format("Name : $s\n", getName());
+    }
     
 }
