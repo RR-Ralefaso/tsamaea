@@ -12,7 +12,9 @@
 # about
     - version 1.0
     - uses openstreetapi
-
+    
+# status
+    - incomplete barely did anything
 
 # Creator
     - RR-Ralefaso (polaris)
