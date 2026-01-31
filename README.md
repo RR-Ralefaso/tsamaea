@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RR-Ralefaso/tsamaea/main/res/TSM_LOGO.png" alt="Tsamaea Logo" width="200>
+  <img src="https://raw.githubusercontent.com/RR-Ralefaso/tsamaea/main/res/TSM_LOGO.png" alt="Tsamaea Logo" width="200">
 </p>
 
 # Tsamaea (Go)
 
-**Tsamaea** is a localized cab and bus booking system designed to revolutionize public transport in under developed countries
+**Tsamaea** is a localized cab and bus booking system designed to revolutionize public transport in under developed countries. 
 
 The platform aims to empower independent drivers by organizing them into professional service structures, eliminating government bottlenecks, and creating a reliable travel ecosystem.
 
